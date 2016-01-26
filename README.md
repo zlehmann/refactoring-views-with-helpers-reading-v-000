@@ -100,6 +100,7 @@ def last_updated
   updated_at.strftime("Last updated %A, %b %e, at %l:%M %p")
 end
 ```
+
 and then use it like `@post.last_updated` on the view. That would certainly solve our DRY problem, but if we think back on MVC and Separation of Concerns, we've created a new problem. Model code isn't concerned with *presentation logic*. Displaying a formatted string isn't the job of the component that talks to the database and handles the business logic. It's the job of the view. So we need a way to keep that code in the view, but also make it DRY.
 
 ## Helpers Are Here To, Well, Help
