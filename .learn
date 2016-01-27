@@ -1,5 +1,7 @@
 tags:
-  - tag1
+  - rails
+  - helpers
+  - DRY
 languages:
-  - language1
+  - ruby
 resources: 0
