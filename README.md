@@ -237,3 +237,5 @@ And just like that, we are using an application helper to dynamically set the pa
 ## Summary
 
 When we start repeating the same pieces of presentation logic across more than one view, we want to use the Don't Repeat Yourself (DRY) principle as our guide and extract that code into helpers. Helpers are organized by concern in the same way that models, views, and controllers are, so always make sure you're putting your helper code in the appropriate place. If it's code specific to a given model/controller, it belongs in that controller's helper. If it's code that's broadly applicable to the entire application, then it goes in the `application_helper`.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/refactoring-views-with-helpers-reading' title='Refactoring Views With Helpers'>Refactoring Views With Helpers</a> on Learn.co and start learning to code for free.</p>
