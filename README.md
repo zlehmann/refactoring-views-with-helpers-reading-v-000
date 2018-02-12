@@ -183,7 +183,7 @@ Helpers are *organized* by controller, but they aren't *restricted* to a single 
 
 ### Application Helpers
 
-What about things that arent the concern of a single controller and are applicable to the entire application? For these cases, we have the `application_helper`. This helper is created automatically with your Rails project and is where you keep helpers that are related to the application itself rather than any given model or controller.
+What about things that aren't the concern of a single controller and are applicable to the entire application? For these cases, we have the `application_helper`. This helper is created automatically with your Rails project and is where you keep helpers that are related to the application itself rather than any given model or controller.
 
 In applications where users can log in, the application helper will often have a method to expose a `current_user`, something which gets used on almost every view in the system.
 
@@ -246,3 +246,5 @@ When we start repeating the same pieces of presentation logic across more than o
 * [Refactoring Views into Partials and Helpers](https://www.youtube.com/watch?v=UYhkBd2Mnl0)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/refactoring-views-with-helpers-reading' title='Refactoring Views With Helpers'>Refactoring Views With Helpers</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/refactoring-views-with-helpers-reading'>Refactoring Views With Helpers</a> on Learn.co and start learning to code for free.</p>
